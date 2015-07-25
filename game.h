@@ -19,8 +19,6 @@ class GameData
 	
 public:
 	//Constructors and destructors
-	GameData();
-	~GameData();
 	//Public methods
 	int Run();
 	int Setup();

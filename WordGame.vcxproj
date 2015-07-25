@@ -47,10 +47,10 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>C:\vs_studio_lib\SDL2-2.0.3\include;$(IncludePath)</IncludePath>
+    <IncludePath>C:\lib\SDL2\include;C:\vs_studio_lib\SDL2-2.0.3\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LibraryPath>C:\vs_studio_lib\SDL2-2.0.3\lib\x86;$(LibraryPath)</LibraryPath>
+    <LibraryPath>C:\lib\SDL2\lib\x86;C:\vs_studio_lib\SDL2-2.0.3\lib\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
